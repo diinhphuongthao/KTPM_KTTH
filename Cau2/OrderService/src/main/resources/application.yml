@@ -1,0 +1,5 @@
+resilience4j.retry:
+    instances:
+        passenger:
+            maxAttempts: 2
+            waitDuration: 5s
